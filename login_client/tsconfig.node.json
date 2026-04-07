@@ -1,10 +1,10 @@
-{
-    "extends": "@vue/tsconfig/tsconfig.node.json",
-    "compilerOptions": {
-      "moduleResolution": "bundler",
-      "module": "ESNext",
-      "strict": true,
-      "composite": true,
-    },
-    "include": ["vite.config.ts"]
-  }
+﻿{
+  "extends": "@vue/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "module": "ESNext",
+    "strict": true,
+    "composite": true
+  },
+  "include": ["vite.config.ts"]
+}
